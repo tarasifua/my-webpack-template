@@ -91,12 +91,6 @@ module.exports = {
       ]
     }]
   },
-  resolve: {
-    alias: {
-      '~': PATHS.src,
-      'vue$': 'vue/dist/vue.js',
-    }
-  },
   plugins: [
     new MiniCssExtractPlugin({
       filename: `${PATHS.assets}css/[name].[hash].css`,
